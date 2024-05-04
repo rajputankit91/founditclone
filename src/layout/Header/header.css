@@ -1,0 +1,285 @@
+#headerDefault{
+  width: 100%;
+  height: fit-content !important;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.contentDiv{
+  border-bottom-width: 1px;
+  padding: 0.75rem 5.8rem;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2.5rem;
+}
+
+.inner-wrapper{
+  width: 100%;
+}
+
+.leftHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+  min-width: max-content;
+  height: 2.25rem;
+}
+
+button{
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  background-image: none;
+  text-transform: none;
+}
+
+.loginBtn,.registerBtn{
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+
+}
+.loginBtn{
+  color: rgba(110, 0, 190, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(110, 0, 190, 1);
+}
+
+.registerBtn{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(252, 89, 18, 1);
+}
+
+.hiddenBorder{
+  display: inline-flex;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-left: 0.5rem;
+  border-left-width: 1px;
+  height: 2.5rem;
+  border-left: 1px solid rgba(210, 209, 214,1);
+}
+
+.employerlogin{
+  color: rgba(19, 17, 32, 1);
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;  
+  display: inline-flex;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/*  */
+
+.search{
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.search_Btn{
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  min-width: 32px;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding: 0px !important;
+  background-color: rgba(110, 0, 190, 1);
+  border-width: 1px;
+  gap: 0.25rem;
+  bottom: 0px;
+}
+
+.dropdown{
+  overflow: hidden;
+}
+
+.innerExLogo{
+  align-items: center;
+  height: 100%;
+  display: flex;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.experienceInput{
+  padding-right: 0.75rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  line-height: normal;
+}
+
+input{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  color: rgb(168, 166, 166);
+}
+
+.innerExText{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.expAutoComplete{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.middleHeader{
+  display: inline-block;
+}
+
+.inner-middleHeader{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.25rem 0.25rem 0.25rem 0.75rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(209, 213, 219,1);
+  border-style: solid;
+  border-width: 1px;border-radius: 9999px;
+  gap: 0px;
+  align-items: center;
+  flex-direction: row;
+  height: 2.5rem;
+  display: flex;
+  width: 100%;
+}
+
+#searchForm{
+  position: relative;
+}
+
+.skillsAutoComplete,.locationAutoComplete{
+  padding-right: 0.75rem;
+  margin-right: 0.75rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  line-height: normal;
+  outline: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgb(168, 166, 166);
+}
+.searchBar_siblings{
+  padding: 0px;
+  width: 50%;
+  height: 100%;
+  border-radius: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  border-style: solid;
+  position: relative;
+  max-width: 100%;
+  border-width: 1px;
+}
+
+.leftHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-width: max-content;
+}
+
+.logo-section{
+  display: flex;
+  align-items: center;
+  justify-self: flex-start;
+  gap: 1.25rem;
+  cursor: pointer;
+  flex-wrap: 1;
+  height: 2.25rem;
+}
+
+.companyLogo{
+  height: 24px;
+  width: 100%;
+  border: 0;
+  max-width: 100%;
+  display: block;
+  vertical-align: middle;
+}
+
+.content-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+  height: 2.25rem;
+}
+
+.innerContent-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+  height: 2.25rem;
+}
+
+.relative{
+  position: relative;
+}
+
+.tag{
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  cursor: pointer;
+  font-size: 15px;
+  color: black;
+}
+a{
+  text-decoration: none;
+  background-color: transparent;
+}

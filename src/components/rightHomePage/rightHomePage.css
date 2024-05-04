@@ -1,0 +1,71 @@
+.jdHeader {
+  border: none;
+  border-bottom: 1px solid #f4f4f5;
+  border-radius: 16px 16px 0 0;
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 16px 16px 8px;
+  width: 100%;
+}
+
+
+.jdHeader .rightSection {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+
+.jdHeader .rightSection .applyBtnCont button {
+  align-items: center;
+  background: #6e00be;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 12px;
+  gap: 5px;
+  height: 34px;
+  justify-content: center;
+  padding: 8px 12px;
+  width: 200px;
+}
+
+p {
+  line-height: 24px;
+}
+.jobDetailMenu ul{
+  display: flex;
+}
+
+.jobDetailMenu ul li{
+  color: #777585;
+  cursor: pointer;
+  font-size: 14px !important;
+  line-height: 21px;
+  margin-right: 24px;
+  padding: 12px 0;
+}
+
+.jdHeader .leftSection .jdInfoSection .jdTitle span {
+  color: #1d1934;
+  display: -webkit-box;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  overflow: hidden;
+}
+
+.jdHeader .leftSection .jdInfoSection .jdCompanyName {
+  align-items: center;
+  color: #777585;
+  display: flex;
+  gap: 5px;
+}
+
+.jdHeader .leftSection .jdInfoSection .jdCompanyName p {
+  line-height: normal;
+}

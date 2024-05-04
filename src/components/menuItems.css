@@ -1,0 +1,26 @@
+.menu-items{
+  position: relative;
+}
+
+li{
+  list-style-type: none;
+}
+
+.filter-pill{
+  padding: 10px 18px;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d2d1d6;
+  border-radius: 16px;
+  color: #1d1934;
+  cursor: pointer;
+  display: inline-flex;
+  margin: 5px 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button{
+  text-transform: none;
+  overflow: visible;
+}

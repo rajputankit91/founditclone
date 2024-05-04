@@ -1,0 +1,91 @@
+[
+  {
+    "title":"Location",
+    "fieldName":"jobLocation",
+    "submenu":[
+      "Bengaluru / Bangalore",
+      "Hyderabad / Secunderabad, Telangana",
+      "Chennai",
+      "Pune"
+    ],
+    "type":"checkbox"
+  },
+  {
+    "title":"Experience",
+    "fieldName":"jobExperience",
+    "submenu":[
+      "0 - 1 Years",
+      "1 - 2 Years",
+      "2 - 5 Years",
+      "5 - 7 Years"
+    ],
+    "type":"range"
+    
+  },
+  {
+    "title":"Salary",
+    "fieldName":"salary",
+    "submenu":[
+      "0 - 1 Lakhs",
+      "1 Lakhs - 2 Lakhs",
+      "2 Lakhs - 5 Lakhs",
+      "5 Lakhs - 10 Lakhs"
+    ],
+    "type":"checkbox"
+  },
+  {
+    "title":"Function",
+    "fieldName":"function",
+    "submenu":[
+      "technology",
+      "Customer Service/Call Centre/BPO",
+      "IT",
+      "Technology"
+    ],
+    "type":"checkbox"
+  },
+  {
+    "title":"Industry",
+    "fieldName":"jobTitle",
+    "submenu":[
+      "Other",
+      "IT/Computers - Software",
+      "ITES/BPO/Call Center",
+      "Banking/Accounting/Financial Services"
+    ],
+    "type":"checkbox"
+  },
+  {
+    "title":"Role",
+    "fieldName":"jobRole",
+    "submenu":[
+      "Fresher",
+      "Customer Service Executive (Voice)",
+      "Customer Service Executive (Non-voice)",
+      "Medical Coder"
+    ],
+    "type":"checkbox"
+  },
+  {
+    "title":"Job type",
+    "fieldName":"jobType",
+    "submenu":[
+      "Permanent Job",
+      "Work From Home",
+      "Jobs for Women",
+      "Jobs for COVID-19 Layoffs"
+    ],
+    "type":"checkbox"
+  },
+  {
+    "title":"Job freshness",
+    "fieldName":"jobFreshness",
+    "submenu":[
+      "In Last 30 Days",
+      "In Last 15 Days",
+      "In Last 7 Days",
+      "In Last 3 Days"
+    ],
+    "type":"checkbox"
+  }
+]

@@ -1,0 +1,156 @@
+html{
+  scroll-behavior: smooth;
+}
+.jobAlertToggle{
+  border-radius: 16px 16px 0 0;
+  margin: 0 16px 16px 0;
+  align-items: center;
+  border: 1px solid #f4f4f5;
+  border-bottom: 2px solid #a5a3ae;
+  box-shadow: 0 4px 8px -2px rgba(0,0,0,.08), 0 2px 2px -2px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: row;
+  height: 56px;
+  justify-content: space-between;
+  padding: 18px 16px;
+}
+
+.toggleText{
+  color: #1d1934;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+label{
+  cursor: pointer;
+}
+
+.toggleBtn{
+  cursor: pointer;
+  display: inline-block;
+  background: #d2d1d6;
+  border-radius: 16px;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggleInput{
+  display: none !important;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.query-details-container{
+  margin: 0 16px 0 0;
+}
+
+.query-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.job-count{
+  color: #a5a3ae;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+p{
+  line-height: 4px;
+}
+
+.cartContainer{
+  margin: 16px 16px 16px 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cardContainer{
+  width: 100%;
+  background: #fff;
+  border: 1px solid #f4f4f5;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px -2px rgba(0,0,0,.08), 0 2px 2px -2px rgba(0,0,0,.15);
+  cursor: pointer;
+  position: relative;
+}
+
+.cartHeader{
+  border-bottom: 1.5px solid #f4f4f5;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 12px 14.5px 12px 13px;
+}
+
+.cartBody{
+  color: #777585;
+  font-size: 12px;
+  padding: 12px 12px 10px 13px;
+  position: relative;
+}
+
+.cartFooter{
+  border-top: 1.5px solid #f4f4f5;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 8px 10px 13px;
+}
+
+.headerContent{
+  
+}
+
+.cardApplyLabel{
+  align-items: flex-start;
+  background: #f1fbf9;
+  border-radius: 20px;
+  color: #2ba682;
+  display: inline-flex;
+  font-size: 12px;
+  gap: 4px;
+  line-height: 16px;
+  padding: 4px 8px 4px 4px;
+}
+
+.pagination .active{
+  background-color: rgba(110, 0, 190,1);
+}
+
+.pagination .active a{
+  color: white;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination .page-item{
+  border-radius: 3px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination>li {
+  align-items: center;
+  color: #1d1934;
+  cursor: pointer;
+  gap: 10px;
+  height: 36px;
+  width: 34px;
+}
+
+.pagination li{
+  display: flex;
+  justify-content: center;
+}
